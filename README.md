@@ -15,6 +15,7 @@ What's Working
 - TouchPad
 - Brightness Control
 - Audio ALC 3246
+= Microphone
 - iMessage & Facetime
 - iCloud Services
 - Battery Status
