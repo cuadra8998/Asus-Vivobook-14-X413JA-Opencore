@@ -1,5 +1,5 @@
 # Asus-Vivobook-14-X413JA-Opencore
-This EFI is for the ASUS Vivobook 14 X413JA
+This EFI is for the ASUS Vivobook 14 X413JA (i3-1005G1)
 ![Screen Shot 2021-11-05 at 10 58 03 PM](https://user-images.githubusercontent.com/83425771/140599700-4fa64d7a-13b1-468c-9df5-f462b1171bbc.png)
 System Configuration
 - CPU: Intel Core i3-1005G1 (Ice Lake)
