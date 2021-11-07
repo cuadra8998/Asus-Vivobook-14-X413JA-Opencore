@@ -10,6 +10,11 @@ System Configuration
 - Power: Lithium Battery
 - Ports: 1 USB C, USB A 3.1, USB A 2.0
 ---------------------------------------------------------------------------------------
+BIOS Configuration:
+- Disable Secure Boot
+- Disable Network Stack
+- Everything else can be kept as default
+---------------------------------------------------------------------------------------
 What's Working
 - Graphics Acceleration Full QE/CI
 - TouchPad
