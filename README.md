@@ -13,6 +13,8 @@ System Configuration
 What's Working
 - Graphics Acceleration Full QE/CI
 - TouchPad
+- WiFi (Intel AX201 WiFi 6)
+- Intel Bluetooth
 - Brightness Control
 - Audio ALC 3246
 - Microphone
