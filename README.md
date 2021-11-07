@@ -29,9 +29,11 @@ What's Not Working
 - Sleep (Due to TPM not being able to be disabled in BIOS (blame ASUS)
 - HDMI Port (Not Supported Yet)
 - Camera (Camera doesn't seem to work even though everything was configured properly
+- App Store seems to not work for some reason. Might work for you though. All Other iCloud Services Work for me though
 ----------------------------------------------------------------------------------------
 Notes:
 - Sleep: You can install a program called NoSleep to fix macOS automatically rebooting during sleep
 - TouchPad: Make sure to disable the Force Click & Haptic Feedback option so that your touchpad works properly
+- If you get a IntelFirmware Boot Loop during booting your installler, try disabling the IntelBluetoothFirmware kext during install and re-enable at Post-Install
 
 That's it have fun!
