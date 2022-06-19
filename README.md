@@ -47,6 +47,6 @@ Notes:
 - Sleep: Sleep is completely broken as of for now. I'm working on a fix but doesn't look promissing. (Will keep you guys updated)
 - TouchPad: Make sure to disable the Force Click & Haptic Feedback option in System Preferences so that your touchpad works properly
 - NOTE: This model has CFG-Lock enabled in the BIOS. You would have to disable CFG-Lock before proceeding with the Install. Also note since ASUS doesn't provide a full BIOS Image on their website, you will have to make a BIOS Dump instead using Intel FPTw/ Intel Flash Programming Tool. This will give you native CPU-PM. Instead you can enable Kernel -> Quirks -> AppleCpuPmCfgLock and Kernel -> Quirks -> AppleXcpmCfgLock
-- Wi-Fi % Bluetooth: If you still have a Intel Wi-Fi Card, Make sure to delete any BCM related kexts and install AirportItlwm or itlwm. Currently Bluetooth on Ventura is wonky so don't expect much of IntelBluetooth working.
+- Wi-Fi & Bluetooth: If you still have a Intel Wi-Fi Card, Make sure to delete any BCM related kexts and install AirportItlwm or itlwm. Currently Bluetooth on Ventura is wonky so don't expect much of IntelBluetooth working.
 
 That's it have fun!
