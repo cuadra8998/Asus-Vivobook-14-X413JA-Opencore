@@ -8,7 +8,7 @@ Tested OS's:
 - Big Sur (Follow the Monterey Guide and Big Sur Guide, see what changes need to be made. Is confirmed working nontheless)
 
 Note: (Catalina should work, but untested)
-
+---------------------------------------------------------------------------------------
 System Configuration
 - CPU: Intel Core i3-1005G1 (Ice Lake)
 - Memory: 4GB DDR4 2667Mhz Single Channel
