@@ -37,7 +37,7 @@ What's Working
 - Battery Status
 - All USB Ports
 - Keyboard
-- SD Card Reader (Working with RealtekCardReader kext)
+- SD Card Reader (Working with RealtekCardReader kext) (Not working in Ventura)
 ----------------------------------------------------------------------------------------
 What's Not Working
 - Sleep (Due to TPM not being able to be disabled in BIOS (blame ASUS)
