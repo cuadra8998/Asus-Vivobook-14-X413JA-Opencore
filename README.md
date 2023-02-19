@@ -4,7 +4,7 @@ This EFI is for the ASUS Vivobook 14 X413JA (i3-1005G1)
 
 Tested OS's:
 - Monterey 12.4
-- Ventura 13.0 (Not recommended), but working
+- Ventura 13.2 (Not recommended), but working
 - Big Sur (Follow the Monterey Guide and Big Sur Guide, see what changes need to be made. Is confirmed working nontheless)
 
 Note: (Catalina should work, but untested)
