@@ -1,6 +1,7 @@
 # Asus-Vivobook-14-X413JA-Opencore
 This EFI is for the ASUS Vivobook 14 X413JA (i3-1005G1)
-![ezgif-2-f14309a5c3](https://user-images.githubusercontent.com/83425771/174473044-48422208-f1c6-4c4e-bbfe-4cd740ca1ce8.jpg)
+
+<img width="1424" alt="Screen Shot 2023-06-04 at 5 38 43 PM" src="https://github.com/cuadra8998/Asus-Vivobook-14-X413JA-Opencore/assets/83425771/76207a0e-644e-4316-aa43-9f9867524a7e">
 
 Tested OS's:
 - Monterey 12.6.3
@@ -15,7 +16,6 @@ System Configuration
 - Display: 1920x1080 FHD IPS Panel
 - TouchPad: l2C Precision TouchPad
 - Graphics: Intel Iris Plus Graphics G1
-- Power: Lithium Battery
 - Ports: 1 USB-C 3.2, USB A 3.2, USB A 3.1
 ---------------------------------------------------------------------------------------
 BIOS Configuration:
@@ -40,15 +40,14 @@ What's Working
 - SD Card Reader (Working with RealtekCardReader kext)
 ----------------------------------------------------------------------------------------
 What's Not Working
-- Sleep (Due to TPM not being able to be disabled in BIOS (blame ASUS)
+- Sleep (macOS issue)
 - HDMI Port (Not Supported)
-- Camera (Camera doesn't seem to work even though everything was configured properly
+- Camera (Camera doesn't work and shows a black screen when initialized)
 ----------------------------------------------------------------------------------------
 Notes:
 - Sleep: Sleep is completely broken as of for now. I'm working on a fix but doesn't look promissing. (Will keep you guys updated)
 - TouchPad: Make sure to disable the Force Click & Haptic Feedback option in System Preferences so that your touchpad works properly
-- Noticed your other PCI-e Slot isn't working or you get a waiting for root device on boot?: Since my machine has a Unsupported NVMe Device in my PCIe slot, I had to make a SSDT Patch to disable my PCI-e Port. Easy fix though. Make sure to either delete or disable SSDT-SSDx in the ACPI Folder.
 - NOTE: This model has CFG-Lock enabled in the BIOS. You would have to disable CFG-Lock before proceeding with the Install. Also note since ASUS doesn't provide a full BIOS Image on their website, you will have to make a BIOS Dump instead using Intel FPTw/ Intel Flash Programming Tool. This will give you native CPU-PM. Instead you can enable Kernel -> Quirks -> AppleCpuPmCfgLock and Kernel -> Quirks -> AppleXcpmCfgLock
-- Wi-Fi & Bluetooth: If you still have a Intel Wi-Fi Card, Make sure to delete any BCM related kexts and install AirportItlwm or itlwm. Currently Bluetooth on Ventura is wonky so don't expect much of IntelBluetooth working.
+- Wi-Fi & Bluetooth: If you still have a Intel Wi-Fi Card, Make sure to delete any BCM related kexts and install AirportItlwm or itlwm. Currently Bluetooth on any non Broadcom chipset is wonky so don't expect much.
 
 That's it have fun!
