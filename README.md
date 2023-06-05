@@ -5,10 +5,9 @@ This EFI is for the ASUS Vivobook 14 X413JA (i3-1005G1)
 
 Tested OS's:
 - Monterey 12.6.3
-- Ventura 13.2 (Not recommended), but working
-- Big Sur (Follow the Monterey Guide and Big Sur Guide, see what changes need to be made. Is confirmed working nontheless)
-
-Note: (Catalina should work, but untested)
+- Ventura (Not recommended), but working
+- Big Sur
+- Catalina
 ---------------------------------------------------------------------------------------
 System Configuration
 - CPU: Intel Core i3-1005G1 (Ice Lake)
